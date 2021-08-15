@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  	background: #141414;
+  	color:#ffffff;
+	overflow-x: hidden;
+}
+
+.row  {
+	background: #070707;
+	padding: 10px;
+}
+
+.mg {
+	padding-left:20px; 
+}
+
+.top i {
+	
+	font-size: 22px !important;
+	margin-right: 5px;
+}
+
+.nav-link {
+	color:#dddddd;
+}
+
+.nav-link:hover {
+	color:#6C6C6C;
+}
+
+.btn-master {
+	background: #D90712;
+	color:#ffffff;
+}
+
+.btn-master:hover {
+	background: #B9060F;
+	color:#ffffff;
+}
+   .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }

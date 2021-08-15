@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Projeto Digital Innovation One, Recriar página do Netflix.">
+<title>DEVFLIX</title>
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css" type="text/css"/>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="stylesheet.css" type="text/css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+const swiper = new Swiper('.swiper-container', {
+  centeredSlides: true,
+  loop: true,
+   zoom: true,
+  autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+	 breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      }
+});
+
+});
+	</script>
+	
+</head>
+<body>
+<div class="flex-column">
+  <header>
+    <div class="row">
+	  <div class="sm-2 mg"><img src="image/logo.png" alt="Logo Devflix" class="img-fluid" /></div>
+	  <div class="sm-8 mg">
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Novidades</a>
+		<a class="nav-link" href="#">Melhores</a>
+        <a class="nav-link" href="#">Contato</a>
+      </nav>
+     </div>
+	  </div>
+  </header>
+
+  <main class="px-3">
+   <h1>O que é a Tecnologia Java e porque preciso dela? </h1>
+    <p class="lead">Java é uma linguagem de programação e plataforma computacional lançada pela primeira <br>vez pela Sun Microsystems em 1995. Existem muitas aplicações e sites que não funcionarão, <br>a menos que você tenha o Java instalado, e mais desses são criados todos os dias. <br>O Java é rápido, seguro e confiável. De laptops a datacenters, consoles de games <br>a supercomputadores científicos, telefones celulares à Internet, o Java está em todos os lugares! </p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-master">Confira</a>
+    </p>
+ </main>  
+<br>
+	<div class="col-12 px-3">
+<h3>Programações em Destaque</h3>
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img src="image/java.png" alt="Java" /></div>
+<div class="swiper-slide"><img src="image/php.png" alt="PHP" /></div>
+<div class="swiper-slide"><img src="image/python.png" alt="Python" /></div>
+<div class="swiper-slide"><img src="image/js.png" alt="JS" /></div>
+<div class="swiper-slide"><img src="image/c.png" alt="C++" /></div>
+</div>
+</div>
+</div>
+
+<br>
+  <footer>
+	<center>
+    <p>&copy; DevFlix 2021 - Todos os Direitos Reservados.</p>
+	</center>
+  </footer>
+
+</div>
+</body>
+</html>
